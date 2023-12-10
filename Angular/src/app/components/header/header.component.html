@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="">Car<span>Book</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" routerLink="/home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/list-agence">Agencies</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="carsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cars
+            </a>
+            <div class="dropdown-menu" aria-labelledby="carsDropdown">
+              <a class="dropdown-item" routerLink="list-voiture-user">All Cars</a>
+              <a class="dropdown-item" routerLink="list-voiture-agence" *ngIf="userRoles.includes('ROLE_AGENCY')">Cars Agency</a>
+              <a class="dropdown-item" routerLink="addcar" *ngIf="userRoles.includes('ROLE_AGENCY')">Add Car</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="reservationsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Reservations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="reservationsDropdown">
+              <ng-container *ngIf="isLoggedIn; else loginRedirect">
+                <a class="dropdown-item" routerLink="reservation-client">User</a>
+              </ng-container>
+              <ng-template #loginRedirect>
+                <a class="dropdown-item" routerLink="/login">User</a>
+              </ng-template>              
+              <a class="dropdown-item" routerLink="reservation-agence" *ngIf="userRoles.includes('ROLE_AGENCY')">Agency</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" routerLink="/list-client" *ngIf="userRoles.includes('ROLE_ADMIN')">Users</a></li>
+          <li class="nav-item"><a href="" class="nav-link" *ngIf="userRoles.includes('ROLE_AGENCY')">Reclamation</a></li>
+          <li class="nav-item"><a href="/condition" class="nav-link">Conditions</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" id="search-button">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+          <ng-container *ngIf="!isLoggedIn; else logoutSection">
+            <li class="nav-item">
+              <a href="/login" class="nav-link"><i class="fas fa-user"></i></a>
+            </li>
+          </ng-container>
+          <ng-template #logoutSection>
+            <li class="nav-item">
+              <a (click)="logout()" href="" class="nav-link"><i class="fas fa-sign-out-alt"></i></a>
+            </li>
+          </ng-template>
+
+
+        </ul>
+        <app-search-cars></app-search-cars>
+      </div>
+    </div>
+  </nav>
+<!-- END nav -->
+

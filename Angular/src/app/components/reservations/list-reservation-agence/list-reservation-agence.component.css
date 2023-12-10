@@ -1,0 +1,39 @@
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Ajoutez une marge si nécessaire */
+  }
+
+  .custom-dropdown {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .circle-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff; 
+    border: none;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .circle-btn:hover {
+    background-color: #0056b3; 
+  }
+
+  .price .subheading.rejected {
+    color: red;
+  }
+  
+  .price .subheading.accepted {
+    color: green;
+  }
+  

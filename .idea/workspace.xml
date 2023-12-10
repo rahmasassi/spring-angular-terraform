@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70600034-0616-410d-9130-2b9fdd6245de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringBoot/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/.idea/packagesearch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/Controllers/CarsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/Entities/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/Repositories/CarsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/Repositories/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/Services/CarsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/Services/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/Services/Impl/CarsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/Services/Impl/ImageServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/Controllers/CarsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/Entities/Cars.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/Entities/Image.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/Repositories/CarsRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/Repositories/ImageRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/Services/CarsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/Services/ImageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/Services/Impl/CarsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/Services/Impl/ImageServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/components/agency/list-agence/list-agence.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/components/agency/list-agence/list-agence.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/components/cars/list-voiture-user/list-voiture-user.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/components/cars/list-voiture-user/list-voiture-user.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/components/client/list-client/list-client.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/components/client/list-client/list-client.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/components/reclamation/list-reclamation/list-reclamation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/components/reclamation/list-reclamation/list-reclamation.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/components/reservations/list-reservation-agence/list-reservation-agence.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/components/reservations/list-reservation-agence/list-reservation-agence.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/components/reservations/list-reservation-client/list-reservation-client.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/components/reservations/list-reservation-client/list-reservation-client.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/Entities/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/mycompany/rentCar/Entities/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/target/SpringBoot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/target/SpringBoot-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/mycompany/rentCar/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/target/surefire-reports/TEST-com.mycompany.rentCar.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/target/surefire-reports/TEST-com.mycompany.rentCar.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/target/surefire-reports/com.mycompany.rentCar.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/target/surefire-reports/com.mycompany.rentCar.AppTest.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2W8fZ6oMRxDlIFc2c7yAJxvfn6T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Rahma/OneDrive/Bureau/angular-springboot/SpringBoot"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70600034-0616-410d-9130-2b9fdd6245de" name="Changes" comment="" />
+      <created>1696119179910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696119179910</updated>
+      <workItem from="1696119181264" duration="358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

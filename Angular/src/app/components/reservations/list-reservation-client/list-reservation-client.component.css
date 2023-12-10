@@ -1,0 +1,33 @@
+.color {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.margin {
+    margin: 0;
+}
+
+.price .subheading.rejected {
+    color: red;
+  }
+  
+  .price .subheading.accepted {
+    color: green;
+  }
+
+  .circle-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff; 
+    border: none;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .circle-btn:hover {
+    background-color: #0056b3; 
+  }

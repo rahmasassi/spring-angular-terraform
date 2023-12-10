@@ -1,0 +1,14 @@
+#photo {
+    display: none; /* Masquer l'élément d'entrée réel */
+  }
+  
+  .input-group-text {
+    background-color: #007bff; /* Couleur de fond du bouton "Choose File" */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Supprimer la bordure du bouton */
+  }
+  
+  .input-group-text i {
+    margin-right: 5px; /* Espacement entre l'icône et le texte */
+  }
+
